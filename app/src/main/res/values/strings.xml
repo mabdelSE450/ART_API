@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assign3</string>
+    <string name="pageLimit">15</string>
+    <string name="field">title, date_display, artist_display, medium_display,
+artwork_type_title, image_id, dimensions, department_title,
+credit_line, place_of_origin, gallery_title, gallery_id, id, api_link</string>
+</resources>

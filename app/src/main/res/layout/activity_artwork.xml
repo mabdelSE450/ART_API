@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScollerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ArtworkActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainActivityGold"
+        tools:context=".ArtworkActivity">
+
+        <ImageView
+            android:id="@+id/artworkActivityLogo"
+            android:layout_width="82dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:onClick="goToMenu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/artworkActivityTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/cinzel"
+            android:inputType="text|textMultiLine"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/artworkActivityLogo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/artworkActivityDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/cinzel"
+            android:text="TextView"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/artworkActivityLogo"
+            app:layout_constraintTop_toBottomOf="@+id/artworkActivityTitle" />
+
+        <TextView
+            android:id="@+id/artworkActivityArtistDisplay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/cinzel"
+            android:text="TextView"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/artworkActivityDate" />
+
+        <TextView
+            android:id="@+id/artworkActivityArtistDisplay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/cinzel"
+            android:text="TextView"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/artworkActivityArtistDisplay1" />
+
+        <TextView
+            android:id="@+id/artworkActivityDepartmentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/cinzel"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/artworkActivityGalleryId"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/artworkActivityGalleryId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/cinzel"
+            android:onClick="openBrowser"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/artworkActivityPlaceOfOrigin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/artworkActivityPlaceOfOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/cinzel"
+            android:text="TextView"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/artworkActivityArtworkTypeTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/artworkActivityArtworkTypeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/cinzel"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@+id/artworkActivityDimensions"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/artworkActivityDimensions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/cinzel"
+            android:text="TextView"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/artworkActivityCreditLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/artworkActivityCreditLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/cinzel"
+            android:inputType="text|textMultiLine"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/externalLinkLogo"
+            android:layout_width="15dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:onClick="openBrowser"
+            app:layout_constraintBottom_toBottomOf="@+id/artworkActivityGalleryId"
+            app:layout_constraintStart_toEndOf="@+id/artworkActivityGalleryId"
+            app:layout_constraintTop_toBottomOf="@+id/artworkActivityDepartmentTitle"
+            app:srcCompat="@drawable/external_link" />
+
+        <ImageView
+            android:id="@+id/artworkActivityImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="openImageActivity"
+            app:layout_constraintBottom_toTopOf="@+id/artworkActivityDepartmentTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/artworkActivityArtistDisplay2"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
