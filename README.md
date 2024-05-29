@@ -22,6 +22,12 @@ Images can be zoomed in using the picasso library. App also informs users if the
 # Message Displayed If Internet Connection Not Found
 ![Screenshot_20240529_165701](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/a801b0b9-e78f-458c-b74e-dfe80b0e5329)
 
+# Message Displayed If Search Input Is Too Short
+![Screenshot_20240529_171400](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/77977246-e4ec-4938-a4b4-3fa753afb311)
+
+# Message Displayed If No Search Results Found
+![Screenshot_20240529_171419](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/b1037fc9-9950-4f67-af70-db77a5189de4)
+
 # Copyright Page
 ![Screenshot_20240529_165452](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/57ca0c76-5559-4c70-a9fe-00c2ef2328a8)
 
