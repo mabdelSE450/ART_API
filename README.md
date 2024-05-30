@@ -16,20 +16,20 @@ Images can be zoomed in using the picasso library. App also informs users if the
 <img src="Images/ArtInstitute_6.png" width="300">
 
 # Viewing Gallery Number Through Chrome
-![Screenshot_20240529_165409](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/80c5c801-a7b2-4af5-b096-9c14309530d9)
-![Screenshot_20240529_165425](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/3d5aa95f-d2e5-4aa0-b07f-fdd4fe24d2cf)
+<img src="Images/ArtInstitute_7.png" width="300">
+<img src="Images/ArtInstitute_8.png" width="300">
 
 # Message Displayed If Internet Connection Not Found
-![Screenshot_20240529_165701](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/a801b0b9-e78f-458c-b74e-dfe80b0e5329)
+<img src="Images/ArtInstitute_10.png" width="300">
 
 # Message Displayed If Search Input Is Too Short
-![Screenshot_20240529_171400](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/77977246-e4ec-4938-a4b4-3fa753afb311)
+<img src="Images/ArtInstitute_11.png" width="300">
 
 # Message Displayed If No Search Results Found
-![Screenshot_20240529_171419](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/b1037fc9-9950-4f67-af70-db77a5189de4)
+<img src="Images/ArtInstitute_12.png" width="300">
 
 # Copyright Page
-![Screenshot_20240529_165452](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/57ca0c76-5559-4c70-a9fe-00c2ef2328a8)
+<img src="Images/ArtInstitute_9.png" width="300">
 
 
 
