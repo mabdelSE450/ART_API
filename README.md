@@ -5,10 +5,10 @@ Images can be zoomed in using the picasso library. App also informs users if the
 <img src="Images/ArtInstitute_1.png" width="300">
 
 # Search Functionality
-![Screenshot_20240529_165137](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/6b361922-d292-4138-98df-ba95f23183f8)
+<img src="Images/ArtInstitute_2.png" width="300">
 
 # Artwork Information Details
-![Screenshot_20240529_165155](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/3528c4a7-623f-4260-a249-8e02cdf23b4f)
+<img src="Images/ArtInstitute_3.png" width="300">
 
 # Artwork Zoom-In
 ![Screenshot_20240529_165226](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/a75e193b-6263-4406-8305-fe4858b00660)
