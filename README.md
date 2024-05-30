@@ -2,7 +2,7 @@ Android application that uses the Art Institute API to retrieve data about works
 Images can be zoomed in using the picasso library. App also informs users if they don't have an internet connection. Searched images are displayed in a recyclerView.
 
 # Application Startup 
-![Screenshot_20240529_165103](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/8bb51798-7a78-4ab6-b908-dae35f7af4af)
+<img src="Images/ArtInstitute_1.png" width="300">
 
 # Search Functionality
 ![Screenshot_20240529_165137](https://github.com/mabdelsPROJECTS/ART_API/assets/137844707/6b361922-d292-4138-98df-ba95f23183f8)
